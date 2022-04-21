@@ -4,3 +4,10 @@ Sync
 volitile..longadder
 threadlocal
 coutdownlatch concurrenthashmap
+
+设计模式
+一、 创建者模式
+     1.单例
+     2.工厂
+     3.原型
+     4.构建者
