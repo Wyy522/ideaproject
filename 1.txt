@@ -11,4 +11,5 @@ coutdownlatch concurrenthashmap
      2.工厂
      3.原型
      4.构建者
-二、
+二、结构型模式
+三、行为型模式
