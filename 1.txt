@@ -12,4 +12,7 @@ coutdownlatch concurrenthashmap
      3.原型
      4.构建者
 二、结构型模式
+     1.代理
+     2.适配器
+     3.桥接
 三、行为型模式
