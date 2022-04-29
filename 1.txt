@@ -31,3 +31,7 @@ coutdownlatch concurrenthashmap
      9.访问者
     10.迭代器
     11.观察者
+
+Thread local
+redis
+
