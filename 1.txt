@@ -37,3 +37,5 @@ redis
      threadlocal accord session
       分布式锁
       seckill
+      sorkset
+
