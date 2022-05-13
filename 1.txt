@@ -43,6 +43,16 @@ redis
 SpringCould 
       Eureka
       Nacous
+      Nginx
+      Feign
+      Gateway(适配器)
+      Docker
+      RabbitMq
+      ElasticSearch
+      Redis
+html
+css
+js
+vue
 操作系统 一二三四
 ......
-

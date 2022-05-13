@@ -1,5 +1,7 @@
 package experiment;
 
+import org.omg.PortableServer.THREAD_POLICY_ID;
+
 public class ProcessType implements Comparable<ProcessType>{
     private char Processno;
     private float submittime;
@@ -8,6 +10,15 @@ public class ProcessType implements Comparable<ProcessType>{
     private float endtime;
     private float roundTime;
     private float wRoundTime;
+    char state;
+
+    public char getState() {
+        return state;
+    }
+
+    public void setState(char state) {
+        this.state = state;
+    }
 
     public ProcessType(char processno, float submittime, float servicetime, float starttime, float endtime, float roundTime, float wRoundTime) {
         Processno = processno;
@@ -19,10 +30,18 @@ public class ProcessType implements Comparable<ProcessType>{
         this.wRoundTime = wRoundTime;
     }
 
-    public ProcessType(char processno, float submittime, float servicetime) {
+    public ProcessType(char processno, float submittime, float servicetime,char state) {
         Processno = processno;
         this.submittime = submittime;
         this.servicetime = servicetime;
+        this.state = state;
+    }
+
+    public ProcessType(char processno, float submittime, float servicetime,float starttime) {
+        Processno = processno;
+        this.submittime = submittime;
+        this.servicetime = servicetime;
+        this.starttime=starttime;
     }
 
     public ProcessType() {

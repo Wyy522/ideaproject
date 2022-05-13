@@ -7,10 +7,10 @@ import java.util.List;
 public class FCFS {
     public static void main(String[] args) {
         List<ProcessType> processlist = new  ArrayList<ProcessType>();
-        processlist.add(new ProcessType('1',10.0f,2.0f));
-        processlist.add(new ProcessType('2',10.2f,1.0f));
-        processlist.add(new ProcessType('3',10.4f,0.5f));
-        processlist.add(new ProcessType('4',10.5f,0.3f));
+        processlist.add(new ProcessType('1',10.0f,2.0f,10.0f));
+        processlist.add(new ProcessType('2',10.2f,1.0f,12.0f));
+        processlist.add(new ProcessType('3',10.4f,0.5f,13.0f));
+        processlist.add(new ProcessType('4',10.5f,0.3f,13.5f));
 
         processlist.sort(ProcessType::compareTo);
         System.out.println(processlist);
