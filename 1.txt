@@ -1,4 +1,3 @@
-121
 JUC
 Sync
 volitile..longadder
@@ -53,6 +52,8 @@ SpringCould
 html
 css
 js
+jquery
+ajax
 vue
 操作系统 一二三四
 ....................
