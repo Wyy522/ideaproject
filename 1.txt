@@ -62,3 +62,6 @@ spring
 spring mvc
 mybatis-puls
 maven
+zookeeper
+etcd
+protobuf
