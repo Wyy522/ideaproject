@@ -65,3 +65,12 @@ maven
 zookeeper
 etcd
 protobuf
+
+
+select 
+poll
+epoll
+fd
+fork()
+excve()
+
