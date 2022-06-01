@@ -74,5 +74,4 @@ fd
 fork()
 excve()
 
-计算机网络 jiaohuanji
-homehomehomehome
+计算机网络
