@@ -4,10 +4,10 @@ public class Main {
     private final static TableList list = new TableList(64);
 
     public static void main(String[] args) {
-        list.useWF();
+//        list.useWF();
 //        list.useBF();
 //        list.useNF();
-//        list.useFF();
+        list.useFF();
 
         list.allocate(10);
         list.allocate(20);
