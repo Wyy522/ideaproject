@@ -48,33 +48,3 @@ SpringCould
       Docker
       RabbitMq
       ElasticSearch
-      Redis
-html
-css
-js
-jquery
-ajax
-vue
-Spring boot 
-操作系统 一二三四
-....................白兰
-spring
-spring mvc
-mybatis-puls
-maven
-zookeeper
-etcd
-protobuf
-
-
-select 
-poll
-epoll
-fd
-fork()
-excve()
-............
-
-操作系统
-1212112121212
-adsadasdsasadasdaasd
